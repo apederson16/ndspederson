@@ -1,0 +1,8 @@
+**IP Release and Renew Guide**
+
+1. Open the Comand Prompt
+2. In the Command Prompt type in ipconfig /release
+  * This releases the current ipconfig information.  
+3. After it is complete, type ipconfig /renew
+  * This will reconnect with the DHCP server to be supplied with new IP information.  
+4. Once that process as been completed, enter ipconfig /all into the command prompt to verify the information.
